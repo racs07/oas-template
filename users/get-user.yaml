@@ -3,5 +3,5 @@
     operationId: "getUserById"
     tags:
       - users
-    parameters:
-      $ref: "../commons/parameters#/id"
+    parameters: 
+      -$ref: "./commons/parameters#/id.yaml"
