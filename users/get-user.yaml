@@ -5,3 +5,5 @@
       - users
     parameters: 
       - $ref: "../commons/parameters/id.yaml"
+      - $ref: "#/components/parameters/authorization"
+
