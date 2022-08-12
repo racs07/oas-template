@@ -12,6 +12,6 @@
         content: 
           application/json:
             schema:
-              -$ref:"#/components/schemas/get-userResponse"
+              $ref: "#/components/schemas/get-userResponse"
 
 
