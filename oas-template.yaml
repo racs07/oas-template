@@ -3,8 +3,8 @@ info:
   version: 1.0.0
   title: oas-template
 paths: 
-  /getUser/{id} : 
-    $ref: "./users/get-user.yaml"
+  /getStudent/{id} : 
+    $ref: "./users/get-student.yaml"
 
 
 components:
@@ -14,6 +14,6 @@ components:
   
   schemas:
     get-userResponse:
-      $ref: "./users/get-userResponse.yaml"
+      $ref: "./users/get-studentResponse.yaml"
   
   
