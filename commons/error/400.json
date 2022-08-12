@@ -1,0 +1,10 @@
+      description: Bad Request 
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/errors"
+          example:
+            type: "BAD_REQUEST"
+            title: "There was an issue with your request message"
+            status: 400
+            detail: ""
