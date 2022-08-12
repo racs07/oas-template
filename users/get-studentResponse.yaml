@@ -12,4 +12,5 @@ properties:
     description: branch choosen by student
     typr: string
     example:
+  subjects:
   
