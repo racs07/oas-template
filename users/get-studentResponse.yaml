@@ -1,24 +1,24 @@
-type: object
-properties:
-  id:
-    description: id of the student
-    type: string
-    example: 4AI11CS000
-  name:
-    description: name of the student
-    type: string
-    example: Rachana
-  branch:
-    description: branch choosen by student
-    type: string
-    example: cs
-  subjects:
-    description: subject choosen
-    type: array
-    items:
+      type: object
       properties:
-        subject:
-          description: language choosen
+        id:
+          description: id of the student
           type: string
-          example: JAVA
+          example: 4AI11CS000
+        name:
+          description: name of the student
+          type: string
+          example: Rachana
+        branch:
+          description: branch choosen by student
+          type: string
+          example: cs
+        subjects:
+          description: subject choosen
+          type: array
+          items:
+            properties:
+              subject:
+                description: language choosen
+                type: string
+                example: JAVA
 
