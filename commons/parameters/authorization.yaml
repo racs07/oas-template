@@ -1,6 +1,6 @@
       name: authorization
       in: header
       required: true
-      schema:
+      schema: 
         type: string
         example: Bearer derstyyuu
