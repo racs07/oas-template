@@ -6,4 +6,9 @@
     parameters: 
       - $ref: "../commons/parameters/id.yaml"
       - $ref: "#/components/parameters/authorization"
+    
+    response:
+      "200":
+        description: "user response"
+        
 
