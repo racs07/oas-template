@@ -12,4 +12,7 @@ components:
     authorization:
       $ref: "./commons/parameters/authorization.yaml"
   
+  schemas:
+    
+  
   
