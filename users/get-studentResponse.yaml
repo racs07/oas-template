@@ -10,7 +10,10 @@ properties:
     example: Rachana
   branch:
     description: branch choosen by student
-    typr: string
-    example:
+    type: string
+    example: cs
   subjects:
-  
+    description: subject choosen
+    type: array
+    items
+
