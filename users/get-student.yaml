@@ -8,14 +8,14 @@
     
     responses:
       "200":
-        description: "user response"
+        description: "student response"
         content: 
           application/json:
             schema:
-              $ref: "#/components/schemas/get-userResponse"
+              $ref: "#/components/schemas/get-ustudentResponse"
 
       "400": 
-        $ref: "#/components/schemas/get-userResponse"
+        $ref: "#/components/response/400"
 
           
 
