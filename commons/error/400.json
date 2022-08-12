@@ -1,5 +1,5 @@
-      description: Bad Request 
-      content:
+      description: Bad Request - An error in the client request (Mostly due to validations) 
+      content:         
         application/json:
           schema:
             $ref: "#/components/schemas/errors"
@@ -8,3 +8,6 @@
             title: "There was an issue with your request message"
             status: 400
             detail: ""
+            instance: ""
+            timestamp_utc: "2021-02-05T18:58:3301Z"
+            causes: []
