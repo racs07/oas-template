@@ -1,2 +1,5 @@
   get:
     description: "sample get user for a given id"
+    operationId: "getUserById"
+    tags:
+      -users
