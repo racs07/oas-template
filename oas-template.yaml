@@ -3,4 +3,4 @@ info:
   version: 1.0.0
   title: oas-template
 paths: 
-/get
+  /getUser : 
