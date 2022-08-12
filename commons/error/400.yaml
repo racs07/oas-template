@@ -1,4 +1,4 @@
-      description: Bad Request - An error in the client request (Mostly due to validations) 
+      description: Bad Request  
       content:         
         application/json:
           schema:
@@ -8,6 +8,3 @@
             title: "There was an issue with your request message"
             status: 400
             detail: ""
-            instance: ""
-            timestamp_utc: "2021-02-05T18:58:3301Z"
-            causes: []
