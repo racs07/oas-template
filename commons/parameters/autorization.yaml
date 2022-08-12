@@ -1,2 +1,6 @@
       name:
-        in h
+        in: header
+        required: true
+        schema:
+          type: string
+          example: Bearer
