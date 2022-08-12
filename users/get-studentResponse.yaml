@@ -5,7 +5,10 @@ properties:
     type: string
     example: 4AI11CS000
   name:
-    description: name of the user
+    description: name of the student
     type: string
     example: Rachana
-  branch
+  branch:
+    description: branch choosen by student
+    typr: string
+    example: 
