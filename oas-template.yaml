@@ -5,7 +5,9 @@ info:
 
 servers:
   - url: "csr91-oas-template.us-e2.cloudhub.io"
-  
+    variables:
+      protocol:
+        default: https
 paths: 
   /getStudent/{id} : 
     $ref: "./users/get-student.yaml"
