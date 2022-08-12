@@ -1,2 +1,2 @@
-get:
-  des
+  get:
+    description:"sample get user for a given id"
