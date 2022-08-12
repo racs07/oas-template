@@ -5,3 +5,8 @@ info:
 paths: 
   /getUser/{id} : 
     $ref: "./users/get-user.yaml"
+
+
+components:
+  schemas:
+    
