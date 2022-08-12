@@ -4,3 +4,4 @@ info:
   title: oas-template
 paths: 
   /getUser : 
+    $ref: 
