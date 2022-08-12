@@ -11,4 +11,5 @@ properties:
   branch:
     description: branch choosen by student
     typr: string
-    example: 
+    example:
+  semister
