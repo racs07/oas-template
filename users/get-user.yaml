@@ -10,5 +10,7 @@
     response:
       "200":
         description: "user response"
-        
+        content: 
+          application/json:
+            
 
