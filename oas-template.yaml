@@ -3,5 +3,5 @@ info:
   version: 1.0.0
   title: oas-template
 paths: 
-  /getUser : 
-    $ref: 
+  /getUser/{id} : 
+    $ref: "./users/get-user.yaml"
