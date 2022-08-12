@@ -15,7 +15,7 @@
               $ref: "#/components/schemas/get-studentResponse"
 
       "400": 
-        $ref: "#/components/response/400"
+        $ref: "#/components/responses/400"
 
           
 
