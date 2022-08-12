@@ -1,4 +1,4 @@
-    name: authorization
+      name: authorization
       in: header
       required: true
       schema:
