@@ -4,7 +4,7 @@ info:
   title: oas-template
 
 servers:
-  - url: "csr91-oas-template.us-e2.cloudhub.io"
+  - url: "https://csr91-oas-template.us-e2.cloudhub.io"
 
 paths: 
   /getStudent/{id} : 
