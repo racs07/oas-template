@@ -1,8 +1,11 @@
 type: object
 properties:
-
-  name:
-    description: "name of the user"
+  id:
+    description: id of the student
     type: string
-    example: "Rachana"
-  
+    example: 4AI11CS000
+  name:
+    description: name of the user
+    type: string
+    example: Rachana
+  branch
