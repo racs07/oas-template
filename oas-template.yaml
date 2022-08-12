@@ -13,6 +13,8 @@ components:
       $ref: "./commons/parameters/authorization.yaml"
   
   schemas:
+    errors:
+      $ref: "./commons/error/error.yaml"
     get-userResponse:
       $ref: "./users/get-studentResponse.yaml"
   
