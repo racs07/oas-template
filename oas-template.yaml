@@ -8,5 +8,7 @@ paths:
 
 
 components:
+  parameters:
+    authorization:"./commons/parameters/author"
   schemas:
     $ref: "users/get-userResponse.yaml"
