@@ -14,7 +14,8 @@
             schema:
               $ref: "#/components/schemas/get-userResponse"
 
-      "400": $ref: "#/components/schemas/get-userResponse"
+      "400": 
+        $ref: "#/components/schemas/get-userResponse"
 
           
 
