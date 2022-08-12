@@ -13,6 +13,7 @@ components:
       $ref: "./commons/parameters/authorization.yaml"
   
   schemas:
-    
+    get-userResponse:
+      $ref: "./users/get-userResponse.yaml"
   
   
