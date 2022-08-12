@@ -3,7 +3,8 @@ info:
   version: 1.0.0
   title: oas-template
 
-
+servers:
+  - url: "csr91-oas-template/"
 
 paths: 
   /getStudent/{id} : 
