@@ -1,0 +1,19 @@
+      description: common error object
+      type: object
+      properties: 
+        type:
+          description: Error type
+          type: string
+          example: "type"
+        title: 
+          description: Error title
+          type: string
+          example: "title"
+        status: 
+          description: Error Status 
+          type: integer
+          example: 500
+        detail:
+          description: Error details
+          type: string
+          example: "Address does not exist for this person"
