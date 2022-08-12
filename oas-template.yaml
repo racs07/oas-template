@@ -9,4 +9,4 @@ paths:
 
 components:
   schemas:
-    
+    $ref: "users/get-userResponse.yaml"
