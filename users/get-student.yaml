@@ -12,7 +12,7 @@
         content: 
           application/json:
             schema:
-              $ref: "#/components/schemas/get-ustudentResponse"
+              $ref: "#/components/schemas/get-studentResponse"
 
       "400": 
         $ref: "#/components/response/400"
