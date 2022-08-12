@@ -6,12 +6,12 @@
     parameters: 
       - $ref: "#/components/parameters/authorization"
     
-    response:
+    responses:
       "200":
         description: "user response"
         content: 
           application/json:
             schema:
-              $ref:"#/components/schemas/get-userResponse"
+              -$ref:"#/components/schemas/get-userResponse"
 
 
