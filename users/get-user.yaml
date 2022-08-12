@@ -4,7 +4,6 @@
     tags:
       - users
     parameters: 
-      - $ref: "../commons/parameters/id.yaml"
       - $ref: "#/components/parameters/authorization"
     
     response:
@@ -12,5 +11,5 @@
         description: "user response"
         content: 
           application/json:
-            
+
 
