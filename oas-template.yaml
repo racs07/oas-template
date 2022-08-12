@@ -19,6 +19,8 @@ components:
       $ref: "./users/get-studentResponse.yaml"
     
 
-    
+  responses:
+    400:
+      $ref: "./commons/error/400.yaml" 
   
   
