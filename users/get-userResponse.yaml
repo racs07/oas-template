@@ -1,2 +1,5 @@
 type: object
-pro
+properties:
+  name:
+    description: "name of the user"
+  
