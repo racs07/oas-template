@@ -15,7 +15,7 @@ components:
   schemas:
     errors:
       $ref: "./commons/error/error.yaml"
-    get-userResponse:
+    get-studentResponse:
       $ref: "./users/get-studentResponse.yaml"
     
 
