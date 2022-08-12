@@ -4,4 +4,4 @@
     tags:
       - users
     parameters: 
-      - $ref: "../commons/parameters#/id.yaml"
+      - $ref: "../commons/parameters/id.yaml"
