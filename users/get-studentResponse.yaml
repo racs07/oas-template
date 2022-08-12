@@ -15,5 +15,9 @@ properties:
   subjects:
     description: subject choosen
     type: array
-    items
+    items:
+      properties:
+        language:
+          description: language choosen
+          type: string
 
