@@ -9,6 +9,9 @@ paths:
 
 components:
   parameters:
+    id:
+      -$ref: 
     authorization:
-      - $ref: "./commons/parameters/authorization.yaml"
+      $ref: "./commons/parameters/authorization.yaml"
+  
   
