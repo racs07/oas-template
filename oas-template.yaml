@@ -4,7 +4,7 @@ info:
   title: oas-template
 
 servers:
-  - url: "https://csr91-oas-template."
+  - url: "https://csr91-oas-template/v1"
     
 paths: 
   /getStudent/{id} : 
