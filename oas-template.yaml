@@ -4,10 +4,8 @@ info:
   title: oas-template
 
 servers:
-  - url: "hello"
-    variables:
-      protocol:
-        default: https
+  - url: "https://csr91-oas-template."
+    
 paths: 
   /getStudent/{id} : 
     $ref: "./users/get-student.yaml"
